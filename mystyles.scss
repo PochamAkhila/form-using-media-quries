@@ -1,0 +1,79 @@
+@import "colors";
+$layout-breakpoint-medium: 768px;
+
+
+@mixin button-text {
+    color: bisque;
+    padding: 5px;
+    background-color: darkblue;
+    border-radius: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8%;
+    padding: 5%;
+
+    @media (max-width: $layout-breakpoint-medium) {
+        .main-container{
+            gap :0%;
+        }
+        .line {
+            display: block;
+            width: 60%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color:$mycolor;
+        }
+    }
+
+    &.container {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        // .form {
+        //     div {
+        //         input {
+        //             .button {
+        //                 @include button-text;
+        //             }
+        //         }
+        //     }
+        // }
+
+    &.container1 {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+            .button {
+                @include button-text;
+            }
+        }
+        // @media (max-width: $layout-breakpoint-medium) {
+        //     .container1 {
+            
+        //     }
+        // }
+        .line {
+            display: none;
+        }
+    }
+
+    .button {
+        @include button-text;
+    }
+
+    .text-color {
+        color: lawngreen
+    }
+
+}

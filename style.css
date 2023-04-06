@@ -1,0 +1,133 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-image: url("images/photo-1535868463750-c78d9543614f.avif");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: aliceblue;
+}
+
+.container {
+    width: 40%;
+    float: left;
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    width: 40%;
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+   .line{
+        display: none;
+    }
+.text-color {
+    color: rgb(20, 225, 13);
+}
+
+.button {
+    padding: 5px;
+    background-color: #3ea6ff;
+    border-radius: 5px;
+}
+
+.main-container {
+    width: 100%;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:1250px) {
+    .container {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (min-width:920px) and (max-width:1030px) {
+    .container {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .container {
+        margin-left: 80px;
+    }
+
+    .container1 {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:775px) {
+    .container {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:654px) {
+    .anchor {
+        display: block;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .container {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .container {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        float: left;
+        clear: left;
+        margin-left: 90px;
+        margin-right: auto;
+        height: auto;
+        width: 80%;
+    }
+    .line{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .container1 {
+        margin-left: 90px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .container {
+        margin-left: 60px;
+    }
+
+    .container1 {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .container {
+        margin-left: 30px;
+    }
+
+    .container1 {
+        margin-left: 30px;
+    }
+} */

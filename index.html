@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto+Slab:wght@300;400;500;700&display=swap"
+        rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mystyles.css">
+        <link rel="stylesheet" href="colors.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- left side form -->
+        <div class="container">
+            <div>
+                <h1>Registration Form</h1>
+                <br />
+                <p>Please fill in this form to create an account.</p>
+                <br />
+            </div>
+            <main>
+                <form action="">
+                    <div>
+                        <label for="fname"><b>First name:</b> &nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" id="fname" name="fname" placeholder="Enter First Name" /><br />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="lname"><b>Last name:</b>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </label>
+                        <input type="text" id="lname" name="lname" placeholder="Enter Last Name" />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="email"><b>Email: &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                        <input type="text" placeholder="Enter Your Email" name="email" id="email" required />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="psw"><b>Password: &nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="psw-repeat"><b>Repeat Password:&nbsp;</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat"
+                            required />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="num"><b>Phone Number:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                        <input type="number" placeholder="Enter Number" name="num" id="num" required />
+                    </div>
+                    <br />
+                    <div>
+                        <label for="text-area"><b>address:</b></label><br>
+                        <textarea id="text-area" name="text-area" rows="3" cols="30" class="text-area"></textarea>
+                    </div><br>
+                    <div>
+                        <label for="Gender">Gender:</label><br />
+                        <input type="radio" id="female" name="gender" value="Female" />
+                        <label for="female">Female</label><br />
+                        <input type="radio" id="male" name="gender" value="Male" />
+                        <label for="male">Male</label><br />
+                        <input type="radio" id="other" name="gender" value="Others" />
+                        <label for="other">Others</label>
+                    </div>
+                    <br />
+                    <div>
+                        <label for="city">Choose Your city:</label>
+                        <select id="city" name="city">
+                            <option value="hyd">Hyderabad</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="pune">Pune</option>
+                            <option value="delhi">Delhi</option>
+                        </select>
+                    </div>
+                    <br />
+                    <div>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday" />
+                    </div>
+                    <br />
+                    <div>
+                        <input type="checkbox" id="acc" name="acc" value="Account" />
+                        <label for="acc">Create an Account?</label><br />
+                    </div>
+                    <br />
+                    <div>
+                        <input type="button" class="button" onclick="alert('Form Submitted Successfully!')"
+                            value="Click Me!" />
+                    </div>
+                </form>
+            </main>
+        </div>
+        <hr class="line">
+
+        <!-- right side form -->
+
+        <div class="container1">
+
+            <h1>Login Form</h1><br>
+            <p>Please fill the Correct details.</p><br>
+            <div>
+                <form action="">
+                    <div>
+                        <label for="uname"><b>Username:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                    </div><br>
+                    <div>
+                        <label for="psw"><b>Password:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                    </div><br>
+                    <div>
+                        <input type="submit" class="button" value="Login" />
+                    </div><br>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label><br>
+                    <br>
+                    <div>
+                        <input type="button" class="button" value="Cancel" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="anchor"><span class="text-color">Forgot password?</span></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
